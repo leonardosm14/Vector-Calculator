@@ -61,9 +61,9 @@ def AngleBetweenVectors(arrayVectors):
     cossineOfAngle = scalarProduct / normProduct
 
     angleRadians = math.acos(cossineOfAngle)
-    angleDegress = math.degrees(angleRadians)
+    angleDegrees = math.degrees(angleRadians)
 
-    return f"{angleRadians:.2f} rad || {angleDegress:.2f}\u00b0"
+    return f"{angleRadians:.2f} rad || {angleDegrees:.2f}\u00b0"
 
 def CrossProduct(arrayVectors):
 
