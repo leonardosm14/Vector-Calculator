@@ -1,0 +1,18 @@
+With this Vector Calculator, you will be able to calculate the following:
+
+a) Sum of Vectors
+b) Norm of a Vector
+c) Scalar (Dot) Product between n vectors
+d) The Angle between two vectors (in radians and degrees)
+f) Cross Product
+g) Scalar Triple Product
+
+The logic for the project was written in Python, using the Numpy and Tkinter (GUI) libraries.
+
+1) Necessary installations (assuming Python is installed):  
+  a) Windows: `pip install numpy tk`
+  b) Linux or Mac: `pip3 install numpy tk`
+
+2) To run the code, open the terminal in the folder where you cloned this project and execute:
+  a) Windows: `python main.py`
+  b) Linux or Mac: `python3 main.py`
