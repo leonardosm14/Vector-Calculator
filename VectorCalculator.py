@@ -32,7 +32,6 @@ def NormOfVector(u) -> float:
     
     return norm**(1/2)
 
-#produto escalar de n vetores [v, u, w, ...]
 def ScalarProduct(arrayVectors):
 
     if CheckVectorSizes(arrayVectors) is False:
@@ -70,7 +69,6 @@ def CrossProduct(arrayVectors):
 
     if CheckVectorSizes(arrayVectors) is False:
         return differenceSizesMessage
-    
 
     u, v = arrayVectors
     u1, u2= u[0], u[1]
